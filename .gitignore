@@ -1,0 +1,16 @@
+#Packages
+node_modules/*
+
+src/vendors/*
+src/bower_components
+
+### OSX ###
+.DS_Store
+
+.Trashes
+Desktop.ini
+$RECYCLE.BIN/
+.tmp
+
+#Output folder
+dist/*

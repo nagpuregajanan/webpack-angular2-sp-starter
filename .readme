@@ -1,0 +1,20 @@
+npm install jquery --save
+npm install @types/jquery --save-dev
+
+  plugins: [
+    new webpack.ProvidePlugin({
+      jQuery: 'jquery',
+      $: 'jquery',
+      jquery: 'jquery'
+    })
+  ]
+
+  to use jquery reference it as follows after installing it by: npm install jquery --save
+  and by this: tsd install jquery --save
+  and in main.ts by importing as: import 'jquery';
+  'jquery':                     'npm:jquery/dist/jquery.min.js',
+
+  npm install --save @ng-bootstrap/ng-bootstrap
+
+  prod build:  npm run build
+  dev:  npm start

@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 2,
+  "workbench.editor.showTabs": false,
+  "workbench.sideBar.location": "right",
+  "git.confirmSync": false,
+  "workbench.activityBar.visible": true,
+  "typescript.check.workspaceVersion": false
+}

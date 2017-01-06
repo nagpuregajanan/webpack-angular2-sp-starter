@@ -1,0 +1,75 @@
+main {
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+}
+
+.tabs-container {
+    border: 1px solid #ddd;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.add-blog-button span i.fa {
+    color: #67ACE8;
+}
+
+.disabled-list-item {
+    cursor: not-allowed !important;
+    opacity: .65 !important;
+}
+.list-group-item:hover {
+    background-color: #f7f7f9;
+}
+.list-group-item {
+    padding: 0.5rem 1.25rem;
+}
+.edit-delete-icon {
+    font-size: 15px;
+    cursor: pointer;
+    color: #0275d8;
+}
+.edit-delete-icon:hover {
+    font-size: 18px;
+    color: #67ACE8;
+}
+.edit-delete-icon-cont {
+    padding: 0;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;    
+}
+.tab-container {
+    padding-top: 20px;
+}
+.added-blogs {
+    padding-bottom: 20px;
+}
+.blog-list-url {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+    position: absolute;
+    line-height: 110%;
+    bottom: 3%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    font-weight: 400;
+    height: 20px;
+}
+.full-width-label {
+    text-align: left;
+}
+.selected-user-alert {
+    color: #31708f;
+}
